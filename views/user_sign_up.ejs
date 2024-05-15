@@ -1,0 +1,29 @@
+<h1>Sign Up</h1>
+
+<form action="/users/create" method="post">
+  <input type="text" name="name" placeholder="Enter Your Name" id="" required />
+  <input
+    type="email"
+    name="email"
+    placeholder="Enter your Email"
+    id=""
+    required
+  />
+  <input
+    type="password"
+    name="password"
+    placeholder="Enter your Password"
+    required
+  />
+  <input
+    type="password"
+    name="confirm_password"
+    placeholder="Confirm your Password"
+    required
+  />
+  <input type="submit" value="Sign Up" />
+</form>
+
+<p>
+  <a href="/users/auth/google">Google Sign-In/Sign-Up</a>
+</p>

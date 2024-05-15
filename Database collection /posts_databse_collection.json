@@ -1,0 +1,124 @@
+[{
+  "_id": {
+    "$oid": "653a2bff4afce53dfb206942"
+  },
+  "content": "Post 1",
+  "user": {
+    "$oid": "6536932903dad854fb7db673"
+  },
+  "comments": [
+    {
+      "$oid": "653a5785cc89dc84d157a5ee"
+    },
+    {
+      "$oid": "653a5797cc89dc84d157a5f7"
+    },
+    {
+      "$oid": "653bc59939f91c649db895f7"
+    },
+    {
+      "$oid": "65463d4a927a8de04881bffc"
+    },
+    {
+      "$oid": "65464df84a1c26c02969e9ab"
+    }
+  ],
+  "likes": [
+    {
+      "$oid": "6545150473b8e71275cbac43"
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-26T09:06:07.884Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-04T13:58:16.595Z"
+  },
+  "__v": 14
+},
+{
+  "_id": {
+    "$oid": "653a3e148e9f19ce2e5b3b35"
+  },
+  "content": "Post 2",
+  "user": {
+    "$oid": "65368c739716c67ac896fbfd"
+  },
+  "comments": [
+    {
+      "$oid": "653a57bccc89dc84d157a5ff"
+    },
+    {
+      "$oid": "653bc72439f91c649db8963c"
+    }
+  ],
+  "likes": [],
+  "createdAt": {
+    "$date": "2023-10-26T10:23:16.702Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-03T15:43:09.125Z"
+  },
+  "__v": 9
+},
+{
+  "_id": {
+    "$oid": "653fc4de2801add6103643ca"
+  },
+  "content": "Post 3",
+  "user": {
+    "$oid": "6536932903dad854fb7db673"
+  },
+  "comments": [
+    {
+      "$oid": "6543bbb85a977583c5875bf4"
+    }
+  ],
+  "likes": [
+    {
+      "$oid": "654514d473b8e71275cbaafa"
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-30T14:59:42.522Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-03T15:42:45.181Z"
+  },
+  "__v": 8
+},
+{
+  "_id": {
+    "$oid": "6543c17525d9cec9e1648edb"
+  },
+  "content": "Post 4",
+  "user": {
+    "$oid": "65368c739716c67ac896fbfd"
+  },
+  "comments": [
+    {
+      "$oid": "6543d9537e4e0cefe1148163"
+    },
+    {
+      "$oid": "6545dff35dd4c2f9851237da"
+    },
+    {
+      "$oid": "65b50cd7a3ec86ff868007d9"
+    },
+    {
+      "$oid": "65b50d084e55c61e2b7e3660"
+    }
+  ],
+  "likes": [
+    {
+      "$oid": "6545dfc65dd4c2f985123795"
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-11-02T15:34:13.113Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-27T14:03:05.837Z"
+  },
+  "__v": 51
+}]

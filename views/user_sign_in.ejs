@@ -1,0 +1,27 @@
+<h1>Sign In</h1>
+
+<form action="/users/create-session" method="post">
+  <input
+    type="email"
+    name="email"
+    placeholder="Enter your Email"
+    id=""
+    required
+  />
+  <input
+    type="password"
+    name="password"
+    placeholder="Enter your Password"
+    id=""
+    required
+  />
+  <input type="submit" value="Sign In" />
+</form>
+
+<p>
+  <a href="/users/send-otp">Reset Password</a>
+</p>
+
+<p>
+  <a href="/users/auth/google">Google Sign-In/Sign-Up</a>
+</p>

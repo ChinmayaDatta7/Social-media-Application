@@ -1,0 +1,171 @@
+[{
+  "_id": {
+    "$oid": "654514d473b8e71275cbaafa"
+  },
+  "user": {
+    "$oid": "6536932903dad854fb7db673"
+  },
+  "likeable": {
+    "$oid": "653fc4de2801add6103643ca"
+  },
+  "onModel": "Post",
+  "createdAt": {
+    "$date": "2023-11-03T15:42:12.503Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-03T15:42:12.503Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6545150273b8e71275cbac35"
+  },
+  "user": {
+    "$oid": "65368c739716c67ac896fbfd"
+  },
+  "likeable": {
+    "$oid": "653bc59939f91c649db895f7"
+  },
+  "onModel": "Comment",
+  "createdAt": {
+    "$date": "2023-11-03T15:42:58.254Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-03T15:42:58.254Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6545150373b8e71275cbac3c"
+  },
+  "user": {
+    "$oid": "65368c739716c67ac896fbfd"
+  },
+  "likeable": {
+    "$oid": "653a5785cc89dc84d157a5ee"
+  },
+  "onModel": "Comment",
+  "createdAt": {
+    "$date": "2023-11-03T15:42:59.257Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-03T15:42:59.257Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6545150473b8e71275cbac43"
+  },
+  "user": {
+    "$oid": "65368c739716c67ac896fbfd"
+  },
+  "likeable": {
+    "$oid": "653a2bff4afce53dfb206942"
+  },
+  "onModel": "Post",
+  "createdAt": {
+    "$date": "2023-11-03T15:43:00.174Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-03T15:43:00.174Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6545150573b8e71275cbac4a"
+  },
+  "user": {
+    "$oid": "65368c739716c67ac896fbfd"
+  },
+  "likeable": {
+    "$oid": "653a57bccc89dc84d157a5ff"
+  },
+  "onModel": "Comment",
+  "createdAt": {
+    "$date": "2023-11-03T15:43:01.172Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-03T15:43:01.172Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6545dfc65dd4c2f985123795"
+  },
+  "user": {
+    "$oid": "65368c739716c67ac896fbfd"
+  },
+  "likeable": {
+    "$oid": "6543c17525d9cec9e1648edb"
+  },
+  "onModel": "Post",
+  "createdAt": {
+    "$date": "2023-11-04T06:08:06.522Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-04T06:08:06.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6549b6b97bf6c2823d876a44"
+  },
+  "user": {
+    "$oid": "6536932903dad854fb7db673"
+  },
+  "likeable": {
+    "$oid": "6543c17525d9cec9e1648edb"
+  },
+  "onModel": "Post",
+  "createdAt": {
+    "$date": "2023-11-07T04:02:01.298Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-07T04:02:01.298Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c23ce53ab3a379369942c"
+  },
+  "user": {
+    "$oid": "6536932903dad854fb7db673"
+  },
+  "likeable": {
+    "$oid": "6543d9537e4e0cefe1148163"
+  },
+  "onModel": "Comment",
+  "createdAt": {
+    "$date": "2023-12-27T13:17:02.949Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-27T13:17:02.949Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c23d653ab3a379369946c"
+  },
+  "user": {
+    "$oid": "6536932903dad854fb7db673"
+  },
+  "likeable": {
+    "$oid": "6545dff35dd4c2f9851237da"
+  },
+  "onModel": "Comment",
+  "createdAt": {
+    "$date": "2023-12-27T13:17:10.446Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-27T13:17:10.446Z"
+  },
+  "__v": 0
+}]

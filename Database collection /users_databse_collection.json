@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "65368c739716c67ac896fbfd"
+  },
+  "email": "abc@gmail.com",
+  "password": "123",
+  "name": "Mark",
+  "createdAt": {
+    "$date": "2023-10-23T15:08:35.311Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-01T15:24:05.437Z"
+  },
+  "__v": 0,
+  "avatar": ""
+},
+{
+  "_id": {
+    "$oid": "6536932903dad854fb7db673"
+  },
+  "email": "def@gmail.com",
+  "password": "123",
+  "name": "Danny",
+  "createdAt": {
+    "$date": "2023-10-23T15:37:13.920Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-27T14:44:49.108Z"
+  },
+  "__v": 0,
+  "avatar": "/uploads/users/avatars/avatar-1698585731395",
+  "otp": 506038
+}]

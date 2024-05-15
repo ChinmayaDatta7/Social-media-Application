@@ -1,0 +1,45 @@
+<li id="post-<%= post._id%>">
+  <p>
+    <%= post.content %>
+    <small class="author"> <%= post.user.name %> </small>
+    <% if ((locals.user) && (locals.user.id == post.user.id)) { %>
+    <span class="delete-post">
+      <a class="delete-post-btn" href="/posts/destroy/<%= post.id %>">X</a>
+    </span>
+    <% } %>
+    <br />
+
+    <!--  for like button -->
+    <small>
+      <%if(locals.user) { %>
+      <a
+        class="toggle-like-button"
+        data-likes="<%= post.likes.length %>"
+        href="/likes/toggle/?id=<%= post.id %>&type=Post"
+      >
+        <i class="fas fa-thumbs-up"></i> <%= post.likes.length %> Likes
+      </a>
+      <% } else { %>
+      <i class="fas fa-thumbs-up"></i> <%= post.likes.length %> Likes <% } %>
+    </small>
+  </p>
+  <div class="post-comments">
+    <% if (locals.user) { %>
+    <form action="/comments/create" class="new-comment-form" method="POST">
+      <input
+        type="text"
+        name="content"
+        placeholder="Type Here to add comment..."
+      />
+      <input type="hidden" name="post" value="<%= post.id %>" id="" />
+      <input type="submit" value="Add Comment" />
+    </form>
+    <% } %>
+    <div class="post-comments-lists">
+      <ul id="post-comments-<%=post._id%>">
+        <% for (let comment of post.comments) { %> <%-include('./_comment', {
+        comment: comment }); %> <% } %>
+      </ul>
+    </div>
+  </div>
+</li>
